@@ -1,5 +1,8 @@
 import {Component} from 'react'
 export default class Childmap extends Component{
+    constructor(){
+        super()
+    }
     render(){
         const {Hero}=this.props
         let FormList=Hero.forms.map((form)=>(<li key={form}>{form}</li>))

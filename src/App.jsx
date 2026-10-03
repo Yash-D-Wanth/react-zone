@@ -7,17 +7,19 @@ import './App.css'
 // import Method from './Function/Method'
 // import Parent from './Class/Method/Parent'
 // import Parent from './Function/Method/Parent'
-import Parentmap from './Class/Map/Parentmap'
+// import Parentmap from './Class/Map/Parentmap'
+import Form from './Class/Form'
 function App() {
   return (
     <>
+      <Form/>
       {/* <Props name="yashwanth"/> */}
       {/* <State/> */}
       {/* <Previous/> */}
       {/* <EventBind/> */}
       {/* <Method/> */}
       {/* <Parent/> */}
-      <Parentmap/>
+      {/* <Parentmap/> */}
     </>
   )
 }
