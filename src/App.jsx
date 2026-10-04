@@ -1,4 +1,5 @@
 import './App.css'
+import ParentComp from './Class/PureComponents/ParentComp'
 // import Props from './Class/Props'
 // import Props from './Function/Props'
 // import State from './Class/State'
@@ -8,11 +9,14 @@ import './App.css'
 // import Parent from './Class/Method/Parent'
 // import Parent from './Function/Method/Parent'
 // import Parentmap from './Class/Map/Parentmap'
-import Form from './Class/Form'
+// import Form from './Class/Form'
+// import Form from './Function/Form'
+// import LifecycleA from './Class/Lifecycle/LifecycleA'
 function App() {
   return (
     <>
-      <Form/>
+    <ParentComp/>
+      {/* <Form/> */}
       {/* <Props name="yashwanth"/> */}
       {/* <State/> */}
       {/* <Previous/> */}
@@ -20,6 +24,7 @@ function App() {
       {/* <Method/> */}
       {/* <Parent/> */}
       {/* <Parentmap/> */}
+      {/* <LifecycleA/> */}
     </>
   )
 }
